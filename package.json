@@ -1,11 +1,14 @@
 {
-  "name": "react-native",
+  "name": "@dal/react-native",
   "version": "0.50.4",
   "description": "A framework for building native apps using React",
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
     "url": "git@github.com:facebook/react-native.git"
+  },
+  "publishConfig": {
+    "registry": "http://npm-registry.corp.daling.com"
   },
   "engines": {
     "node": ">=4"
