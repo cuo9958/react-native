@@ -10,6 +10,9 @@
   "engines": {
     "node": ">=4"
   },
+  "publishConfig": {
+    "registry": "http://npm-registry.corp.daling.com"
+  },
   "jest": {
     "transform": {
       "^[./a-zA-Z0-9$_-]+\\.(bmp|gif|jpg|jpeg|png|psd|svg|webp)$": "<rootDir>/jest/assetFileTransformer.js",
